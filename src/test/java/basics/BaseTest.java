@@ -15,7 +15,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseTest {
 	
-	protected WebDriver driver; 
+	public WebDriver driver; 
 	public FileReader fr;
 	public Properties p = new Properties();
 	
